@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div class="content_display_calcular">
+            <input id="display_calcular" type="text" value="0">
+        </div>
+        <div class="content_display_resultado">
+            <input id="display_resultado" type="text" value=" ">
+        </div>
+        
+    <section class="grid_calculadora">
+        <button data-borrar value="AC">AC</button>
+        <button data-operador value="+/-">+/-</button>
+        <button data-operador value="/" class="op">/</button>
+        <button class="op borrar" value="delete">
+            <i class='bx bxs-tag-x'></i>
+        </button>
+        <button data-numero value="7">7</button>
+        <button data-numero value="8">8</button>
+        <button data-numero value="9">9</button>
+        <button data-operador value="*" class="op">x</button>
+        <button data-numero value="4">4</button>
+        <button data-numero value="5">5</button>
+        <button data-numero value="6">6</button>
+        <button data-operador value="+" class="op">+</button>
+        <button data-numero value="1">1</button>
+        <button data-numero value="2">2</button>
+        <button data-numero value="3">3</button>
+        <button data-operador value="-" class="op">-</button>
+        
+        <button data-numero value="0" class="cero">0</button>
+        <button data-numero  value="." class="punto">.</button>
+        <button data-igual value="=" class="op igual">=</button>
+    </section>
+    <div id="error">
+        
+    </div>
+</main>
+
+<script src="./Javascript//Calculadora.js"></script>
+</body>
+</html>
